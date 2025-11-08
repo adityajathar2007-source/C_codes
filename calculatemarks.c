@@ -6,7 +6,7 @@ int main() {
 
     
     printf("Enter marks of five subjects (Physics, bee, cp, Math, japnese): ");
-    scanf("%d%d%d%d%d", &phy, &bee, &cp, &math, &japnese);
+    scanf("%d %d %d %d %d", &phy, &bee, &cp, &math, &japnese);
 
     
     percentage = (phy + bee + cp + math + japnese) / 5.0;
@@ -29,3 +29,4 @@ int main() {
 
     return 0;
 }
+
