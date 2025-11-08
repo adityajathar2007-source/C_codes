@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main() {  
     char c;
     printf("Enter a character: ");
@@ -9,3 +10,4 @@ int main() {
     
     return 0;
 }
+
